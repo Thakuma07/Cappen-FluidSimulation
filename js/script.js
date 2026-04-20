@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { FluidSimulation } from "./FluidSimulation";
+import { FluidSimulation } from "./FluidSimulation.js";
 
 const config = {
   simResolution: 256,
