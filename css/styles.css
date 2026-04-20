@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "DM Mono";
+    src: url(/fonts/DMMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: clamp(3rem, 10vw, 15rem);
+    line-height: 0.9;
+    letter-spacing: -4%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "DM Mono";
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #000;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.nav-logo a {
+    text-transform: uppercase;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: -2%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 4rem;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100svh;
+    padding: 2rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero .header {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1:nth-child(2) {
+    align-self: flex-end;
+}
+
+.hero h1:nth-child(3) {
+    align-self: center;
+}
+
+#fluid {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 100;
+    mix-blend-mode: difference;
+}
+
+@media (max-width: 1000px) {
+    .nav-links {
+        align-items: flex-end;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero h1 {
+        align-self: center !important;
+        text-align: center;
+    }
+}
