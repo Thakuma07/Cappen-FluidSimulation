@@ -1,11 +1,11 @@
 @font-face {
     font-family: "DM Mono";
-    src: url(/fonts/DMMono-Regular.ttf);
+    src: url("../fonts/DMMono-Regular.ttf");
 }
 
 @font-face {
     font-family: "Inter";
-    src: url(/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf)
+    src: url("../fonts/Inter-Italic-VariableFont_opsz,wght.ttf");
 }
 
 * {
@@ -45,17 +45,17 @@ nav {
     z-index: 2;
 }
 
+.nav-links {
+    display: flex;
+    gap: 4rem;
+}
+
 .nav-logo a {
     text-transform: uppercase;
     font-family: "Inter";
     font-size: 1rem;
     font-weight: 900;
     letter-spacing: -2%;
-}
-
-.nav-links {
-    display: flex;
-    gap: 4rem;
 }
 
 .hero {
