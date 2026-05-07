@@ -2,6 +2,8 @@
 
 A high-performance, visually stunning fluid simulation built with **Three.js** and **WebGL**, migrated to a modern **Vite** build system.
 
+<img width="1565" height="979" alt="Screenshot 2026-05-07 164617" src="https://github.com/user-attachments/assets/e88ea6c9-d9f8-4ece-82f9-e374dd3533cd" />
+
 ![Fluid Simulation Preview](https://img.shields.io/badge/WebGL-Simulation-blue?style=for-the-badge&logo=opengl)
 ![Three.js](https://img.shields.io/badge/Three.js-r160-black?style=for-the-badge&logo=three.dot-js)
 ![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite)
